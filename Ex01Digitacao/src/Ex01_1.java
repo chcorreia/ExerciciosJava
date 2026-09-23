@@ -25,7 +25,7 @@ public class Ex01_1 {
         double altura = 1.92;
         char tamanho = 'G';
         // printf imprime variaveis misturadas no texto
-        System.out.printf("Olá %s, você tem %d anos e %.2fm de altura? Você é tamanho %c!\n",
+        System.out.printf("Olá %s, você tem %d anos e %fm de altura? Você é tamanho %c!\n",
                 nome, idade, altura, tamanho);
     }
 }
