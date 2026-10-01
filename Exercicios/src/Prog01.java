@@ -11,11 +11,16 @@ public class Prog01 {
         // só pára quando a pessoa responder "banana"
         String texto;
         int voltas = 0;
-        do{
-            System.out.print("Digite qualquer palavra: ");
-            texto = leitura.next();
+        do {
             voltas++; // soma mais 1 em voltas
-        }while(!texto.equalsIgnoreCase("banana"));
-        System.out.print("Você tentou "+voltas+" vezes\n");
+            System.out.print("Digite uma palavra ("+ voltas + "ª chance): ");
+            texto = leitura.next();
+        } while ( (voltas < 3) && (!texto.equalsIgnoreCase("banana")) );
+
+        if(texto.equalsIgnoreCase("banana")){
+            System.out.println("Parabéns você acertou em "+voltas+" tentativas");
+        } else {
+            System.out.println("Você errou "+voltas+" vezes!");
+        }
     }
 }

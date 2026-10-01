@@ -33,5 +33,6 @@
 -------------------------------------------------------------------*/
 public class Ex02_5 {
     public static void main(String[] args) {
+        // alterado
     }
 }

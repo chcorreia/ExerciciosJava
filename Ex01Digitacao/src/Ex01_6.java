@@ -23,6 +23,6 @@
 -------------------------------------------------------------------*/
 public class Ex01_6 {
     public static void main(String[] args) {
-
+        // alterado
     }
 }

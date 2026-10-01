@@ -24,5 +24,7 @@ public class Ex02_3 {
         int numeroSorteado = random.nextInt(3) + 1;
 
         // comece seu código aqui
+
+        // alterado
     }
 }

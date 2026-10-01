@@ -61,6 +61,7 @@ public class Ex01_3 {
         // resumo
         System.out.printf("Nome: %s, Idade: %d, Altura: %f, Jogador:%c",
                 nome, idade, altura, megaSena);
+        // alterado
     }
 
 }

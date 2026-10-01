@@ -16,5 +16,6 @@
 -------------------------------------------------------------------*/
 public class Ex02_1 {
         public static void main(String[] args) {
+                // alterado
         }
 }

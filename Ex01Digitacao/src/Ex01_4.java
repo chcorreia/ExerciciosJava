@@ -28,5 +28,6 @@ public class Ex01_4 {
         System.out.println("Sobra : "+sobra+" ovos.");
 
         teclas.close();
+        // alterado
     }
 }
